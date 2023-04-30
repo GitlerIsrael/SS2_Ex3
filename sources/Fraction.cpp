@@ -4,9 +4,6 @@
 
 #include "Fraction.hpp"
 
-//using namespace ariel;
-//using namespace std;
-
 namespace ariel {
     void Fraction::reduce() {}
 

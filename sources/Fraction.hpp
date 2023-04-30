@@ -59,18 +59,4 @@ namespace ariel{
         friend std::ostream& operator<<(std::ostream& output, const Fraction& fraction);
         friend std::istream& operator>>(std::istream& input, Fraction& fraction);
     };
-
-//    Fraction operator+(const float f, const Fraction& fraction);
-//    Fraction operator-(const float f, const Fraction& fraction);
-//    Fraction operator*(const float f, const Fraction& fraction);
-//    Fraction operator/(const float f, const Fraction& fraction);
-//    bool operator==(const float f, const Fraction& fraction);
-//    bool operator!=(const float f, const Fraction& fraction);
-//    bool operator>(const float f, const Fraction& fraction);
-//    bool operator<(const float f, const Fraction& fraction);
-//    bool operator>=(const float f, const Fraction& fraction);
-//    bool operator<=(const float f, const Fraction& fraction);
-//
-//    std::ostream& operator<<(std::ostream& os, const Fraction& fraction);
-//    std::istream& operator>>(std::istream& is, Fraction& fraction);
 }
