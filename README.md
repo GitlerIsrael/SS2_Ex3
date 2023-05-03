@@ -11,30 +11,21 @@ Write a class named Fraction that represents a fraction of two integers. Overloa
 * All comparison operations (>,<,>=,<=)
 * The ++ and -- operator that adds (or substracts) 1 to the fraction. implement both pre and post fix.
 * The << operator to print a fraction to an output stream in the format “numerator/denominator”.
-* The >> operator to read a fraction from an input stream by taking two integers as input. 
-* All operators should work on both sides on fractions and floats type variables. on a float var you need use up to 3 digits beyond the desimal point for acuracy.  
+* The >> operator to read a fraction from an input stream by taking two integers as input.
+* All operators should work on both sides on fractions and floats type variables. on a float var you need use up to 3 digits beyond the desimal point for acuracy.
 
 דוגמאות לפעולת המחלקה ניתן למצוא ב-[Demo.cpp](Demo.cpp).
 
-בשלב א עליכם לכתוב כותרות ובדיקות-יחידה מקיפות. 
+בשלב ב עליכם לעבור את כל הבדיקות ולכתוב מימוש מלא
 
 כיתבו את כל הקבצים הדרושים כך שהפקודות הבאות יעבדו ללא שגיאות:
 
 <div dir='ltr'>
 
-    make demo && ./demo
-	make test && ./test
+    bash grade
 
 </div>
 
-מומלץ גם להריץ:
-
-<div dir='ltr'>
-
-    make tidy
-    make valgrind
-
-</div>
 
 שימו לב:
 אין לשנות קבצים קיימים, אלא רק להוסיף קבצים חדשים.
